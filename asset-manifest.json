@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/integrify-react-assignment/static/css/main.c5020239.css",
+    "main.js": "/integrify-react-assignment/static/js/main.8152f99b.js",
+    "static/js/787.79535015.chunk.js": "/integrify-react-assignment/static/js/787.79535015.chunk.js",
+    "index.html": "/integrify-react-assignment/index.html",
+    "main.c5020239.css.map": "/integrify-react-assignment/static/css/main.c5020239.css.map",
+    "main.8152f99b.js.map": "/integrify-react-assignment/static/js/main.8152f99b.js.map",
+    "787.79535015.chunk.js.map": "/integrify-react-assignment/static/js/787.79535015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5020239.css",
+    "static/js/main.8152f99b.js"
+  ]
+}
