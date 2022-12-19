@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+// according to https://stackoverflow.com/a/60619061
+// React.StrictMode is the reason for rendering <App /> twice
 root.render(
   <React.StrictMode>
     <App />

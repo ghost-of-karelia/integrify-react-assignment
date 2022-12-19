@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import AppBar from './AppBar';
+import { CountriesGrid } from './CountriesGrid';
+import { DataContextProvider } from './DataContextProvider';
+import { SearchContextProvider } from './SearchContextProvider';
+
+// import logo from './logo.svg';
 import './App.css';
+import { Stack } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DataContextProvider>
+      <SearchContextProvider>
+        <Stack direction="column" className="mainLayout" justifyContent="stretch">
+          <AppBar />
+          <CountriesGrid />
+        </Stack>
+      </SearchContextProvider>
+    </DataContextProvider>
   );
 }
 
 export default App;
+
+// TODO 
+// 1 DONE Search
+// 2 DONE Flags 
+// 3 DONE Counter below
+// 4 DONE New window 
+// 5 DONE Clean architecture 
+// 6 DONE Parse languages
+// 7 Clean up
+// 8 Deploy on prod
